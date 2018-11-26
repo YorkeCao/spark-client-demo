@@ -1,0 +1,10 @@
+spark-client:
+  app-name: spark-job
+  spark-home: /home/hdfs/spark
+  master: yarn
+  spark-driver-memory: 1g
+  spark-executor-memory: 4g
+  spark-executor-cores: 2
+  app-resource: /home/hdfs/spark-job/spark-job-1.0-SNAPSHOT.jar
+  main-class: io.yorkecao.sparkjob.Launcher
+  deploy-mode: client
